@@ -13,7 +13,8 @@
       },
       "configurations": {
         "ci": {
-          "devServerTarget": "feature-one:static-storybook:ci"
+          "devServerTarget": "feature-one:static-storybook:ci",
+          "port": "cypress-auto"
         }
       }
     },

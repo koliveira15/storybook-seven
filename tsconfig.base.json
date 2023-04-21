@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@storybook-seven/feature-one": ["libs/feature-one/src/index.ts"]
+      "@storybook-seven/feature-one": ["libs/feature-one/src/index.ts"],
+      "@storybook-seven/feature-two": ["libs/feature-two/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

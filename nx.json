@@ -39,6 +39,9 @@
     },
     "build-storybook": {
       "inputs": ["default", "^production", "!{projectRoot}/.storybook/**/*"]
+    },
+    "static-storybook": {
+      "dependsOn": ["^build-storybook"]
     }
   },
   "namedInputs": {

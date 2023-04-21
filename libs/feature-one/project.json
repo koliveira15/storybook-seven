@@ -67,7 +67,8 @@
       },
       "configurations": {
         "ci": {
-          "buildTarget": "feature-one:build-storybook:ci"
+          "buildTarget": "feature-one:build-storybook:ci",
+          "port": 0
         }
       }
     }

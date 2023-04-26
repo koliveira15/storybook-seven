@@ -34,7 +34,7 @@ npx nx affected --target e2e --configuration ci
   "configurations": {
     "ci": {
       "buildTarget": "feature-one:build-storybook:ci",
-      "port": 0 <---- FINDS AND OPEN PORT
+      "port": 0 <-- FINDS AN OPEN PORT
     }
   }
 }
@@ -52,8 +52,8 @@ npx nx affected --target e2e --configuration ci
   },
   "configurations": {
     "ci": {
-      "devServerTarget": "feature-one:static-storybook:ci", <---- POINTS TO STATIC-STORYBOOK TARGET
-      "port": "cypress-auto" <---- FINDS AND OPEN PORT
+      "devServerTarget": "feature-one:static-storybook:ci", <-- POINTS TO STATIC-STORYBOOK TARGET
+      "port": "cypress-auto" <-- FINDS AN OPEN PORT
     }
   }
 }
